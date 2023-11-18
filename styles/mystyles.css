@@ -1,0 +1,15 @@
+.error{
+    background-color: rgb(251, 167, 167);
+}
+#pets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.pet{
+    background-color: #dedede;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 1rem;
+}
